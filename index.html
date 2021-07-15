@@ -8,6 +8,17 @@
       
       <!--====== Title ======-->
       <title>Lets's Donate</title>
+      <style>
+        body{
+          background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-creative-love-charity-sale-poster-background-material-image_163881.jpg');
+          background-repeat:  no-repeat;
+          background-size: cover;
+          background-blend-mode: lighten;
+          height: 100%;
+          width: 100%
+         
+        }
+      </style>
       
       <meta name="description" content=""This website has been made as a part of my Internship Task, at The Sparks Foundation. I have enrolled in #GRIPJULY2021. My domain of functioning is Web Development and Designing. For the completion of the same, I have chosen to develop a Payment Gateway Integration - Task 3, for the fulfillment of the same. All the images are being used just for the sake of educational purpose only."">
       <meta name="viewport" content=""Internship, #GRIPJULY2021, Web Development and Designing Intern, The Sparks Foundation, Payment Gateway Integration, Success, Web Development and Designing, Intern, Donate for a Cause, Charity begins at Home"1">
@@ -32,9 +43,40 @@
       
       <!--====== Style CSS ======-->
       <link rel="stylesheet" href="assets/css/style.css">
+      <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 30px;
+          overflow: hidden;
+          
+          background-color: maroon;
+        }
+        
+        li {
+          float: right;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color:grey ;
+        }
+
+        
+        </style>
+         
+        
       
   </head>
  <body>
+  
   <section id="home" class="header_area">
     <div id="header_navbar" class="header_navbar">
         <div class="container">
@@ -59,9 +101,7 @@
                                     <a class="page-scroll" href="#about">About</a>
                                 </li>
                                 
-                                <li class="nav-item">
-                                    <a class="page-scroll" href="#portfolio">Gallery</a>
-                                </li>
+                              
                                 
                                 
                                 <li class="nav-item">
@@ -76,7 +116,7 @@
     </div> <!-- header navbar -->
 
     <div class="header_hero">
-        <div class="single_hero bg_cover d-flex align-items-center" style="background-image: url(assets/images/hero.jpg)">
+        <div class="single_hero bg_cover d-flex align-items-center" style="background-image: url('https://www.shutterstock.com/image-photo/symbol-shape-heart-created-hands-concept-1620071491');">
             <div class="container">
                 <div class="row justify-content-center">
                     
@@ -89,13 +129,16 @@
 
   <div class="header" id="home">
     <!--Content before waves-->
-    <div class="inner-header flex">
-      <h1><em>Let's Donate</em></h1>
-      <p class="wave-p">
-        “Remember that the happiest people are not those getting more, but those giving more.” – H. Jackson Brown Jr.
-      </p>
+    
+    <div class="inner-header flex" >
+     
+      <h1><center><em>Let's Donate</em></center>
+      </h1>
+      <h2><center> “Remember that the happiest people are not those getting more, but those giving more.” – H. Jackson Brown Jr.</center>
+       
+      </h2>
 
-      <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HZ5tJyIWVQtesf" async> </script> </form>
+      <form><center><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HZ5tJyIWVQtesf" async> </script></center></form>
       <svg version="1.1" class="logo" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" xml:space="preserve">
       <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
@@ -108,228 +151,156 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
     </svg>
     <h1></h1>
     </div> 
-    <section id="about" class="pt-130">
-      <div class="about_area">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-6">
-                      <div class="about_content pt-120 pb-130">
-                          <div class="section_title pb">
-                              <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">About Our
-                                  Creative Proccess</h4>
-                              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor
-                                  sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt ut
-                                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                                  dolores et erebum</p>
-                              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s">Lorem ipsum dolor
-                                  sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                                  ut labore etdolore maali quyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                                  dolores</p>
-                          </div> <!-- section title -->
-                          <a href="#0" class="main-btn wow fadeInUp" data-wow-duration="1.3s"
-                              data-wow-delay="0.7s">Learn More</a>
-                      </div> <!-- about content -->
-                  </div>
-              </div> <!-- row -->
-          </div> <!-- container -->
-          
-          <div class="about_image bg_cover wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.2s"
-              style="background-image: url(assets/images/about.jpg)">
-              <div class="image_content">
-                  <h4 class="experience"><span>5</span> Years of Experience</h4>
-              </div>
-          </div> <!-- about image -->
-      </div>
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--Waves Or Home Section ends-->
+    <section id="About" class="my-5">
+      <div class="container">
+        <h1 class="text-center">About</h1>
+        <div class="row">
+          <div class="
+                col-lg-6 col-md-12 col-sm-12
+                d-flex
+                align-items-center
+                justify-content-center
+              ">
+            <img src="https://cdn.xxl.thumbs.canstockphoto.com/donate-web-concept-website-and-internet-concept-with-donate-word-on-colorful-hanged-tags-on-white-stock-illustrations_csp15872251.jpg">  
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <p class="lead">
+              Lets's Donate is India based Fundraising Organisation. It is a free
+              platform, where you can register yourself in moments, and start
+              the drive to help the needy people out there. Our motto, is
+              <em>"Service before Self"</em>
+              and we are wholeheartedly committed to make our society a better
+              place for one and all.
+            </p>
+            <p class="lead">
+              We organise charity events on a large scale, gathering different
+              organisations, universities and schools to be a part of this
+              humane cause. Owing to the COVID - 19 crisis, our country is going
+              through, we have also launched COVID - 19 Relief Fund, to help
+              India beat the Pandemic.
+            </p>
+          </div>
+        </div>
+     
+      
   </section>
 
   <!--====== ABOUT PART ENDS ======-->
-   <!--====== PORTFOLIO PART START ======-->
-
-   <section id="portfolio" class="portfolio_area pt-120">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section_title text-center pb-60">
-                    <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Our Portfolio</h4>
-                    <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor sit
-                        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore.</p>
-                </div> <!-- section title -->
-            </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
-    <div class="portfolio_wrapper d-flex flex-wrap">
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
-            <img src="assets/images/portfolio-1.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">Logo And Branding</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
-            <img src="assets/images/portfolio-2.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">Bootstrap 5 Project</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">
-            <img src="assets/images/portfolio-3.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">Creative Projects</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
-            <img src="assets/images/portfolio-4.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">UI/UX Projects</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
-            <img src="assets/images/portfolio-5.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">App Development</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
-            <img src="assets/images/portfolio-6.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">Web Development</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">
-            <img src="assets/images/portfolio-7.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">Business Card Design</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-        <div class="single_portfolio wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
-            <img src="assets/images/portfolio-8.jpg" alt="portfolio">
-            <div class="portfolio_content">
-                <ul class="meta">
-                    <li><a href="#0"><i class="lni lni-link"></i></a></li>
-                </ul>
-                <h5 class="portfolio_title">Consulting Business</h5>
-            </div> <!-- Single portfolio -->
-        </div> <!-- portfolio wrapper -->
-    </div> <!-- row -->
-</section>
-
-<!--====== PORTFOLIO PART ENDS ======-->
- <!--====== CONTACT PART START ======-->
-
- <section id="contact" class="contact_area bg_cover pt-120 pb-130" style="background-image: url(assets/images/contact_bg.jpg)">
-  <div class="container">
-      <div class="row justify-content-center">
-          <div class="col-lg-6">
-              <div class="section_title section_title_2 text-center pb-25">
-                  <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Contact Us</h4>
-                  <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Lorem ipsum dolor sit
-                      amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor dolore.</p>
-              </div> <!-- section title -->
-          </div>
-      </div> <!-- row -->
+   
       
-      <form id="contact-form" action="assets/contact.php" method="post" class="wow fadeInUp"
-          data-wow-duration="1.3s" data-wow-delay="0.4s">
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="single_form">
-                      <input type="text" placeholder="Name" name="name" id="name" required>
-                  </div> <!-- single form -->
+  <section id="Contact" class="my-5">
+    <h1 class="text-center pb-4">Contact</h1>
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <img src="http://nrdcindia.com/uploads/images/1568886999Conatct2.jpg" class="contact-img" alt="" />
+        </div>
+        <div class="col-lg-7 col-md-6 col-sm-12">
+          <form action="mailto:nikitagoyal509@gmail.com" enctype="text/plain" method="POST">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" class="form-control" placeholder="Enter First Name" name="First_Name"
+                  required />
               </div>
-              <div class="col-lg-6">
-                  <div class="single_form">
-                      <input type="email" placeholder="Email" name="email" id="email" required>
-                  </div> <!-- single form -->
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" class="form-control" placeholder="Enter Last Name" name="Last_Name"
+                  required />
               </div>
-              <div class="col-lg-6">
-                  <div class="single_form">
-                      <input type="text" placeholder="Phone Number" name="number" id="number" required>
-                  </div> <!-- single form -->
-              </div>
-              <div class="col-lg-6">
-                  <div class="single_form">
-                      <input type="text" placeholder="Subject" name="subject" id="subject" required>
-                  </div> <!-- single form -->
-              </div>
-              <div class="col-lg-12">
-                  <div class="single_form">
-                      <textarea placeholder="Message" name="message" id="message" required></textarea>
-                  </div> <!-- single form -->
-              </div>
-              
-              <p class="form-message"></p>
-              
-              <div class="col-lg-12">
-                  <div class="single_form text-center">
-                      <button class="main-btn" type="submit">SUBMIT</button>
-                  </div> <!-- single form -->
-              </div>
-          </div> <!-- row -->
-      </form>
-  </div> <!-- container -->
-</section>
+            </div>
+            <div class="form-group my-2">
+              <label for="InputEmail1">Email Address</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" name="Email_ID"
+                placeholder="xyz@example.com" />
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="formControlRange">How much did you like my Lets's Donate Donation based
+                Website?</label>
+              <input type="range" class="form-control-range" id="formControlRange" name="rating" />
+            </div>
+            <div class="form-group">
+              <label for="FormControlTextarea1">Share your charity experience with us.</label>
+              <textarea class="form-control" id="FormControlTextarea1" rows="3" name="charityExperience"
+                placeholder="Start writing from here..." required></textarea>
+            </div>
+            <button type="submit" value="submit" class="btn btn-primary btn-lg">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="py-5" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="sec-1">
+            <h6 class="foot-head">Let's Donate</h6>
+            <p class="p-font foot-p"><em>Service Before Self</em></p>
+          </div>
+          <div class="sec-1">
+            <h6 class="foot-head">About Us</h6>
+            <p class="p-font foot-p">
+              We want to help needy people by raising funds for their basic
+              needs: Education, Shelter and Food.
+            </p>
+          </div>
 
-<!--====== CONTACT PART ENDS ======-->
+          <div class="sec-1">
+            <h6 class="foot-head">Contact Us</h6>
 
-<!--====== FOOTER PART START ======-->
+            <p>
+              <a href="#" target="_blank"><i class="fas fa-envelope icon"></i>Lets'sDonate@example.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 foot-section-2">
+          <div>
+            <h6 class="foot-head">Information</h6>
+            <p><a href="#">Home</a></p>
+            <p><a href="#home">Donate Now</a></p>
+            <p><a href="#about">About</a></p>
+            
+            <p><a href="#contact">Contact</a></p>
+          </div>
+        </div>
 
-<footer id="footer" class="footer_area">
-  <div class="container">
-      <div class="footer_wrapper text-center d-lg-flex align-items-center justify-content-between">
-          <p class="credit">Designed and Developed by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
-          <div class="footer_social pt-15">
-              <ul>
-                  <li><a href="#0"><i class="lni lni-facebook-original"></i></a></li>
-                  <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
-                  <li><a href="#0"><i class="lni lni-instagram-original"></i></a></li>
-                  <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
-              </ul>
-          </div> <!-- footer social -->
-      </div> <!-- footer wrapper -->
-  </div> <!-- container -->
-</footer>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h6 class="foot-head">Mail for More Info</h6>
 
-<!--====== FOOTER PART ENDS ======-->
-
-<!--====== BACK TOP TOP PART START ======-->
-
-<a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
-
-<!--====== BACK TOP TOP PART ENDS ======-->
-
-
-<!--====== Bootstrap js ======-->
-<script src="assets/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
-
-<!--====== glide js ======-->
-<script src="assets/js/tiny-slider.js"></script>
-
-<!--====== wow js ======-->
-<script src="assets/js/wow.min.js"></script>
-
-<!--====== Main js ======-->
-<script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+          <p>
+          <form action="mailto:nikitagoyal509@gmail.com" method="post" enctype="text/plain">
+            <p><input type="email" placeholder="E-mail*" name="Email_ID" required /></p>
+            <button class="btn-footer">
+              SUBMIT
+            </button>
+          </form>
+          </p>
+        </div>
+      </div>
+      <div class="horizontal-rule"></div>
+      <div class="icons d-flex align-items-center justify-content-center">
+        <a href="https://twitter.com/NikitaG18571203?s=09" target="_blank"><i class="fab fa-twitter icon-bottom"></i></a>
+        <a href="https://www.linkedin.com/in/nikita-goyal123" target="_blank"><i
+            class="fab fa-linkedin icon-bottom"></i></a>
+        <a href="mailto:nikitagoyal509@gmail.com" target="_blank"><i class="fas fa-envelope icon-bottom"></i></a>
+      </div>
+    </div>
